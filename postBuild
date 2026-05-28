@@ -2,11 +2,5 @@
 
 set -e
 
-echo "Installing FEniCS via FEM-on-Colab..."
+echo "No postbuild yet..."
 
-wget "https://fem-on-colab.github.io/releases/fenics-install-release-real.sh" \
-    -O /tmp/fenics.sh
-
-bash /tmp/fenics.sh
-
-echo "FEniCS installation complete"
