@@ -1,4 +1,4 @@
-FROM docker pull quay.io/fenicsproject/dev:latest
+FROM quay.io/fenicsproject/dev:latest
 
 USER root
 RUN apt-get update && apt-get install -y wget
